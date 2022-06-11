@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typer D</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="main">
+      <h2>⌨️ TYPER 3000 ⌨️</h2>
+      <p>Escribe la siguiente palabra:</p>
+      <h1 id="randomWord"></h1>
+      <input type="text" id="text" autocomplete="off" placeholder="Escribe la palabra !!">
+      <p class="time-container">
+        Tiempo restante: <span id="timeSpan">10s</span>
+      </p>
+      <p class="score-container">Puntaje: <span id="score">0</span></p>
+    </div>
+    <div id="end-game-container" class="end-game-container">
+      <p class="gameStatus"></p>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+
+  <footer class="integrantes">
+    <p >
+      <h1>Integrantes</h1> <h3>Camilo Miranda, Pablo Cid y Sebastian Liberona</h3>
+    </p>
+  </footer>
+</body>
+
+</html>

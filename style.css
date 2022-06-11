@@ -1,0 +1,50 @@
+* {
+    color: aliceblue;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+body {
+    background-image: url(bg1.jpg);
+    font-family: 'Acme', sans-serif;
+}
+
+.colorsegundos {
+    color: rgb(255, 4, 4);
+}
+
+#randomWord {
+    color: rgb(255, 0, 0);
+}
+
+.container {
+    text-align: center;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    background-image: url(gif1.gif);
+    background-size: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    margin: 50px auto;
+
+}
+
+input {
+    color: rgb(228, 0, 0);
+}
+
+#end-game-container {
+    font-size: 2rem;
+}
+.integrantes{
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+}
